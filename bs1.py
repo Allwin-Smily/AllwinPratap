@@ -1,7 +1,7 @@
-a=int(input("enter the number"))
+a=int(input("enter the number\n"))
 if a<0:
   print("number is negative")
 elif a>0:
   print("number is positive")
 else:
-  printf("number is zero")
+	print("number is zero")
