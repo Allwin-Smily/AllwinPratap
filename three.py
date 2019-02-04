@@ -1,10 +1,10 @@
-num1 = int(input())
-num2 = int(input())
-num3 = int(input())
-if (num1 > num2) and (num1 > num3):
-	largest=num1
-elif (num2 > num1) and (num2 > num3):
-	largest=num2
+first = int(input())
+second = int(input())
+third = int(input())
+if (first > second) and (first > third):
+	largest=first
+elif (second > first) and (second > third):
+	largest=second
 else :
-	largest=num3
+	largest=third
 print(largest)
